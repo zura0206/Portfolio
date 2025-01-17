@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow sticky top-0 z-50"></header>
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="text-xl font-semibold text-gray-700">
+                    My Portfolio
+                </div>
+                <div>
+                    <a href="#about" class="text-gray-700 hover:text-gray-900 mx-4">About</a>
+                    <a href="#projects" class="text-gray-700 hover:text-gray-900 mx-4">Projects</a>
+                    <a href="#contact" class="text-gray-700 hover:text-gray-900 mx-4">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="mt-10">
+        <section class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold text-gray-800">Welcome to My Portfolio</h1>
+            <p class="text-gray-600 mt-4">Showcasing my work and projects</p>
+            <a href="#projects" class="mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">View Projects</a>
+        </section>
+
+        <section id="about" class="container mx-auto px-6 mt-10">
+            <h2 class="text-2xl font-bold text-gray-800">About Me</h2>
+            <p class="text-gray-600 mt-4">I am a passionate developer with experience in various technologies...</p>
+        </section>
+
+        <section id="projects" class="container mx-auto px-6 mt-10">
+            <h2 class="text-2xl font-bold text-gray-800">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-bold text-gray-800">Project 1</h3>
+                    <p class="text-gray-600 mt-2">Description of project 1...</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"></div>
+                    <h3 class="text-xl font-bold text-gray-800">Project 2</h3>
+                    <p class="text-gray-600 mt-2">Description of project 2...</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"></div>
+                    <h3 class="text-xl font-bold text-gray-800">Project 3</h3>
+                    <p class="text-gray-600 mt-2">Description of project 3...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container mx-auto px-6 mt-10">
+            <h2 class="text-2xl font-bold text-gray-800">Contact</h2>
+            <p class="text-gray-600 mt-4">Feel free to reach out to me at <a href="mailto:example@example.com" class="text-blue-500 hover:underline">example@example.com</a></p>
+        </section>
+    </main>
+
+    <footer class="bg-white shadow mt-10">
+        <div class="container mx-auto px-6 py-3 text-center text-gray-600">
+            &copy; 2023 My Portfolio. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
